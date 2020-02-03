@@ -21,6 +21,7 @@ module.exports = async function requestAction (req, res) {
   return res.view('requestAction', rtns.toObject());
 
 }
+```
 
 ## Licence
 
