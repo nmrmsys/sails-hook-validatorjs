@@ -1,0 +1,35 @@
+{
+  "name": "sails-hook-validatorjs",
+  "version": "0.0.1",
+  "description": "Sails.js hook to use validatorjs",
+  "main": "index.js",
+  "sails": {
+    "isHook": true,
+    "hookName": "validatorjs"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmrmsys/sails-hook-validatorjs.git"
+  },
+  "keywords": [
+    "validatorjs",
+    "sails",
+    "hook",
+    "sails-hook"
+  ],
+  "author": "Masayoshi Nomura <nmrmsys@gmail.com> (http://github.com/nmrmsys)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmrmsys/sails-hook-validatorjs/issues"
+  },
+  "homepage": "https://github.com/nmrmsys/sails-hook-validatorjs#readme",
+  "dependencies": {
+    "express-validatorjs": "0.0.1"
+  },
+  "devDependencies": {
+    "sails": "~1.2.3"
+  }
+}
