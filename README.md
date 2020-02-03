@@ -10,17 +10,10 @@ $ npm install sails-hook-validatorjs
 ## Usage
 On the request action
 ```javascript
-module.exports = async function requestAction (req, res) {
-
-  const validation = req.validator({prm1: 'required|integer'})
-  
-  validation.passes() // true
-  validation.fails() // false
-  validation.errors.first('prm1')
-
-  return res.view('requestAction', rtns.toObject());
-
-}
+const validation = req.validator({prm1: 'required|integer'})
+validation.passes() // true
+validation.fails() // false
+validation.errors.first('prm1')
 ```
 
 ## Licence
